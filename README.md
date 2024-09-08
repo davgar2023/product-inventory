@@ -13,15 +13,16 @@ This project is a simple **Product Inventory System** that allows you to manage 
 ## Project Structure
 
 product-inventory/
-├── models/
-│   └── product.js           # Product class representing a product
-├── utils/
-│   └── sort.js              # QuickSort algorithm utility function
-├── routes/
-│   └── productRoutes.js      # Express.js routes for handling product operations
-├── index.js                 # Entry point for starting the Express server
-├── package.json             # Node.js project configuration and dependencies
-└── README.md                # Project documentation
+backend/
+        ├── models/
+        │   └── product.js           # Product class representing a product
+        ├── utils/
+        │   └── sort.js              # QuickSort algorithm utility function
+        ├── routes/
+        │   └── productRoutes.js      # Express.js routes for handling product operations
+        ├── index.js                 # Entry point for starting the Express server
+        ├── package.json             # Node.js project configuration and dependencies
+        └── README.md                # Project documentation
 
 
 
@@ -86,6 +87,3 @@ To add a product, create an instance of the `Product` class and use the `addProd
         URL: http://localhost:3000/products
         Method: POST
 
-
-
-        
