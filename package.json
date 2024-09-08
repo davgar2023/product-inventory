@@ -1,0 +1,14 @@
+{
+  "name": "product-inventory",
+  "version": "1.0.0",
+  "description": "A simple product inventory system using Node.js and QuickSort algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}
