@@ -87,3 +87,6 @@ To add a product, create an instance of the `Product` class and use the `addProd
         URL: http://localhost:3000/products
         Method: POST
 
+// run HTML
+
+you can test the app from index.html
