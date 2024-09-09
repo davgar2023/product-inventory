@@ -55,8 +55,7 @@ To add a product, create an instance of the `Product` class and use the `addProd
 
     ```js s product.js 
 
-    const Product = require('./products.js');
-    const ProductInventory = require('./products.js');
+   const { Product, ProductInventory } = require('./products.js');
 
     // Initialize inventory
     const inventory = new ProductInventory();
