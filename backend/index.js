@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const productRoutes = require('./routes/productRoutes');
+const { router } = require('./routes/productRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Routes
-app.use('/api/products', productRoutes);
+app.use('/api/products', router);
 
 // Start server
 app.listen(PORT, () => {

@@ -93,3 +93,6 @@ class ProductInventory {
         return [...this.quickSort(left, key), pivot, ...this.quickSort(right, key)];
     }
 }
+
+// Export the classes
+module.exports = { Product, ProductInventory };
