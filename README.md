@@ -1,6 +1,14 @@
 # Product Inventory System
 
-This project is a simple **Product Inventory System** that allows you to manage products using Node.js. The system supports adding, updating, deleting, searching, and sorting products based on various properties like `name`, `price`, or `category`. It implements the **Quick Sort** algorithm for sorting the products.
+[![JavaScript](https://img.shields.io/badge/JavaScript-83.2%25-yellow?logo=javascript&logoColor=white)](https://github.com/davgar2023/product-inventory)
+[![HTML](https://img.shields.io/badge/HTML-16.8%25-orange?logo=html5&logoColor=white)](https://github.com/davgar2023/product-inventory)
+[![Node.js](https://img.shields.io/badge/Node.js-14%2B-green?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-4.x-black?logo=express&logoColor=white)](https://expressjs.com/)
+[![Tests](https://img.shields.io/badge/Tests-8%2F8%20Passing-brightgreen)](https://github.com/davgar2023/product-inventory)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/davgar2023/product-inventory)
+
+This project is a simple **Product Inventory System** that allows you to manage products using Node.js. The system supports adding, updating, deleting, searching, and sorting products based on vari[...]
 
 ## Features
 
@@ -45,9 +53,9 @@ To get started with the project, follow these steps:
     ```bash
     npm install
     ```
-     ```bash
+      ```bash
     npm start
-     ```
+      ```
 ## Usage
 
 ### Adding a Product
